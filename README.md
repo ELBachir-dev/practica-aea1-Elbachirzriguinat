@@ -1,26 +1,26 @@
-# 🚗 Gestión de Motores y Recambios
+#  Gestión de Motores y Recambios
 
 Aplicación web desarrollada con **Angular 20** y **Bootstrap 4.4.1** para gestionar un catálogo de motores y recambios de vehículos. Permite consultar productos, visualizar información del inventario y añadir nuevos productos mediante un formulario.
 
-## 📌 Descripción del proyecto
+##  Descripción del proyecto
 
 El objetivo de este proyecto es crear una interfaz intuitiva, moderna y responsive para facilitar la gestión de un catálogo de productos relacionados con el sector del automóvil.
 
 La aplicación está organizada en componentes Angular y utiliza las funcionalidades de los componentes standalone y el sistema de plantillas de Angular para mostrar la información de los productos.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
-- 📦 **Catálogo de productos:** visualización de motores y recambios.
-- ➕ **Añadir productos:** formulario para introducir nuevos productos.
-- 💰 **Gestión de precios:** registro del precio de cada producto.
-- 📊 **Control de stock:** consulta de las unidades disponibles.
-- 🗂️ **Categorías:** clasificación de los productos por categoría.
-- 🖼️ **Imágenes:** posibilidad de indicar una URL para cada producto.
-- 📝 **Descripciones:** visualización de información adicional de los productos.
-- ❤️ **Favoritos:** marcar productos como favoritos.
-- 🔎 **Información del inventario:** cálculo del valor del stock y consulta del estado de los productos.
-- ✅ **Validación del nombre:** comprobación de la longitud y del contenido del nombre.
-- 📱 **Diseño responsive:** interfaz adaptable a diferentes tamaños de pantalla.
+-  **Catálogo de productos:** visualización de motores y recambios.
+-  **Añadir productos:** formulario para introducir nuevos productos. todavia pendiente
+-  **Gestión de precios:** registro del precio de cada producto. 
+-  **Control de stock:** consulta de las unidades disponibles.
+-  **Categorías:** clasificación de los productos por categoría.
+-  **Imágenes:** posibilidad de indicar una URL para cada producto.
+-  **Descripciones:** visualización de información adicional de los productos.
+-  **Favoritos:** marcar productos como favoritos.
+-  **Información del inventario:** cálculo del valor del stock y consulta del estado de los productos.
+-  **Validación del nombre:** comprobación de la longitud y del contenido del nombre.
+-  **Diseño responsive:** interfaz adaptable a diferentes tamaños de pantalla.
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -68,13 +68,13 @@ Instala los siguientes programas:
 ### 2. Clonar el repositorio
 
 ```bash
-git clone URL_DE_TU_REPOSITORIO
+git clone https://github.com/ELBachir-dev/practica-aea1-Elbachirzriguinat.git
 ```
 
 ### 3. Entrar en la carpeta del proyecto
 
 ```bash
-cd NOMBRE_DEL_PROYECTO
+cd Practica-aea1-Elbachirzriguinat 
 ```
 
 ### 4. Instalar las dependencias
@@ -112,7 +112,7 @@ Entre los campos principales se encuentran:
 - `descripcio`: descripción del producto.
 - `Favorito`: indica si el producto está marcado como favorito.
 
-## 🧮 Getters y cálculos
+##  Getters y cálculos
 
 La aplicación utiliza getters de TypeScript para obtener información calculada de los productos, como:
 
@@ -123,7 +123,7 @@ La aplicación utiliza getters de TypeScript para obtener información calculada
 
 Estos cálculos permiten presentar información adicional sin tener que almacenarla como un nuevo campo en el modelo.
 
-## 🎨 Diseño
+##  Diseño
 
 La interfaz utiliza una distribución basada en tarjetas y paneles, con:
 
